@@ -1,0 +1,30 @@
+{
+    "publicKey": {
+        "challenge": "<challenge>",
+        "rp": {
+            "name": "localhost",
+            "id": "Foobar Corp."
+        },
+        "user": {
+            "name": "<userName>",
+            "displayName": "<userDisplayName>",
+            "id": "<userId>"
+        },
+        "pubKeyCredParams": [
+            {
+                "type": "public-key",
+                "alg": -7
+            },
+            {
+                "type": "public-key",
+                "alg": -257
+            }
+        ],
+        "authenticatorSelection": {
+            "requireResidentKey": false,
+            "userVerification": "preferred"
+        },
+        "timeout": 60000,
+        "attestation": "direct"
+    }
+}
